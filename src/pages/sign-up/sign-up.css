@@ -44,3 +44,19 @@
     color: black;
     margin-left: 15px;
 }
+
+.sign-line{
+    height: 2px;
+    width: 250px;
+    background-color: black;
+}
+.sign-or{
+    margin: 0 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sign-underline{
+    display: flex;
+    align-items: center;
+}

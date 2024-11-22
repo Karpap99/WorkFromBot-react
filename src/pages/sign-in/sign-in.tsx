@@ -1,6 +1,34 @@
+import { Link } from "react-router-dom"
+import bee from "../../assets/images/bee-image.svg"
+import "./sign-in.css"
+import { SignInput } from "../../components/sign-input/sign-input"
+import { SignButton } from "../../components/signButton/signButton"
+import googlelogo from "../../assets/images/google-logo.svg"
+
+
 export const SignIn = () => {
     return(
-        <>
-        </>
+        <div className="sign-container">
+            <div className="sign-container-inner">
+                <Link to="/main">
+                    <img className="sign-bee-logo" src={bee} alt=""/>
+                </Link>
+                <div className="sign-company-name">
+                    РОБОТА
+                    <br/><span>від</span> БОТА
+                </div>
+                <div className="sign-type">Вхід</div>
+                <SignInput placeholder="Електронна пошта"/>
+                <SignInput placeholder="Пароль" password/>
+                <SignButton text="Увійти"/>
+                <div className="sign-underline">
+                    <div className="sign-line"></div>
+                    <div className="sign-or">або</div>
+                    <div className="sign-line"></div>
+                </div>
+                <SignButton text="Продовжити з гугл" image={googlelogo}/>
+                <p className="sign-accout-question">Вже є Аккаунт? <Link className="sign-accout-question-action" to="/sign-up">Реєстрація</Link></p>
+            </div>
+        </div>
     )
 }

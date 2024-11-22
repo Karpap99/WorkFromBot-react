@@ -19,10 +19,15 @@ export const SignUp = () => {
                 <div className="sign-type">РЕЄСТРАЦІЯ</div>
                 <SignInput placeholder="Ім'я та прізвище"/>
                 <SignInput placeholder="Електронна пошта"/>
-                <SignInput placeholder="Пароль" password/>
+                <SignInput placeholder="Пароль" password passwordDiffCheck/>
                 <SignButton text="ЗАРЕЄСТРУВАТИСЬ"/>
+                <div className="sign-underline">
+                    <div className="sign-line"></div>
+                    <div className="sign-or">або</div>
+                    <div className="sign-line"></div>
+                </div>
                 <SignButton text="Продовжити з гугл" image={googlelogo}/>
-                <p className="sign-accout-question">Вже є Аккаунт? <Link className="sign-accout-question-action" to="/sign-in">Вхід</Link></p>
+                <p className="sign-accout-question">Ще немає Аккаунт? <Link className="sign-accout-question-action" to="/sign-in">Вхід</Link></p>
             </div>
         </div>
     )
