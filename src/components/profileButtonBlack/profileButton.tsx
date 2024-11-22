@@ -1,8 +1,8 @@
 import { ButtonProps } from "./types"
-import "./profileButton.css";
-export const ProfileButton = (props: ButtonProps) => {
+import "./profileButtonBlack.css";
+export const ProfileButtonBlack = (props: ButtonProps) => {
     return(
-        <div className="profilebutton-body">
+        <div className="profilebuttonblack-body">
             {props.image ? <img src={props.image} alt=""/> : <></> }<span>{props.text}</span> 
         </div>
     )

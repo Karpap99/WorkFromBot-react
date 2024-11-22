@@ -1,0 +1,14 @@
+.profilebuttonblack-body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 32px;
+    font-weight: 600;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    gap: 20px;
+}
+

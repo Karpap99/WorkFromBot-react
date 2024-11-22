@@ -9,9 +9,14 @@ body{
   background-image: url("/src/assets/images/tech-back.svg");
   background-repeat: no-repeat;
   background-position: left bottom;
+  position: relative;
 }
 
 @font-face {
   font-family: Inter;
   src: url('./assets/fonts/Inter-VariableFont_opsz\,wght.ttf');
+}
+
+body > #root {
+  min-height: 100vh;
 }

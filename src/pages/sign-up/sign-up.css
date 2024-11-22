@@ -1,0 +1,46 @@
+.sign-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-container-inner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.sign-company-name{
+    text-align: center;
+    margin: 0;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.sign-company-name span{
+    font-weight: 800;
+}
+
+.sign-bee-logo{
+    width: 98px;
+    height: 115px;
+}
+
+.sign-type{
+    margin: 20px 0;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.sign-accout-question{
+    margin: 0;
+
+}
+
+
+.sign-accout-question-action{
+    color: black;
+    margin-left: 15px;
+}

@@ -14,13 +14,13 @@ export const Header = () => {
     return(
     <header>
         <div className="header">
-            <Link to="/">
+            <Link to="/main">
                 <img className="logo" src={logo} alt="logo"/>
             </Link>
             
             <ul className="navbar">
                 <li>
-                    <Link className="navbar-element" style={location.pathname === "/" ? active : {}} to="/">Головна</Link>
+                    <Link className="navbar-element" style={location.pathname === "/main" ? active : {}} to="/main">Головна</Link>
                 </li>
                 <li>
                     <Link className="navbar-element" style={location.pathname === "/offers" ? active : {}} to="/offers">Вакансії</Link>
