@@ -1,0 +1,70 @@
+.content{
+    max-width: 1440px;
+    margin: auto;
+    position: relative;
+}
+
+.home-uppercontent{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home-bee{
+    height: 270px;
+    width: 249px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto auto;
+}
+
+.home-uppercontentimages{
+    position: relative;
+    
+}
+
+.home-uppercontent h1{
+    font-size: 64px;
+    font-weight: 900;
+    color: #332504;
+}
+
+.home-uppercontent h1 span{
+    font-size: 64px;
+    font-weight: 700;
+}
+
+
+.home-uppercontent h2, .home-find-more{
+    font-size: 40px;
+    font-weight: 700;
+    color: #332504;
+}
+
+
+.home-find-more{
+    color: white;
+    background-color: #332504;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0 66px 66px 0;
+}
+
+.home-offers-table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+
+.home-offers-table-row{
+    display: flex;
+    gap: 100px;
+}
+

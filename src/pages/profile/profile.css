@@ -1,0 +1,28 @@
+.profile-exit{
+    position: absolute;
+    display: flex;
+    right: 0;
+}
+
+.profile-image{
+    width: 265px;
+    height: 265px;
+    border-radius: 50%;
+}
+
+.profile-upper{
+    display: flex;
+    gap:40px;
+}
+
+.profile-upper h2{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.profile-upper-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

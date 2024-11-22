@@ -1,0 +1,63 @@
+.footer{
+
+    width: 100%;
+    background-color: black;
+    padding:  20px 0 ;
+    font-size: 20px ;
+}
+
+.footer-content{
+    color: white;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+
+.footer-contacts{
+    display: flex;
+    
+}
+
+.footer-contacts ul{
+    list-style: none;
+}
+
+.footer-content a{
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.side-line{
+    background-color: white;
+    width: 2px;
+}
+
+.footer-share{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-share h2{
+    font-size: 24px;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+.footer-share img{
+    height: 41px;
+    width: 41px;
+}
+
+.footer-share-logo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}

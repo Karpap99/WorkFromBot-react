@@ -1,0 +1,55 @@
+header{
+    
+    background-color: white;
+    font-size: 28px;
+}
+
+.logo{
+    height: 105px;
+    width: 95px;
+}
+
+.header{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-element{
+    text-decoration: none;
+    color: black;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+.searchbar{
+    position: relative;
+}
+
+.searching{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 10px;
+}
+
+.searchbar-input{
+    font-family: Inter;
+    font-size: 16px;
+    width: 216px;
+    height: 40px;
+    border-radius: 66px;
+    border: 1.8px solid black;
+    padding-left: 40px;
+}

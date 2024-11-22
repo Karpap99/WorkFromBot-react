@@ -1,0 +1,32 @@
+.sign-in{
+    font-size: 16px;
+    background-color: var(--main-bg-color);
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 66px;
+    padding: 10px;
+    border: 2px solid var(--main-bg-color);
+}
+
+.sign-up{
+    font-size: 16px;
+    background-color: white;
+    border: 2px solid var(--main-bg-color);
+    text-decoration: none;
+    color: var(--main-bg-color);
+    font-weight: 500;
+    border-radius: 66px;
+    padding: 10px;
+}
+.accountButtons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-image{
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+}

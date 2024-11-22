@@ -1,0 +1,17 @@
+:root{
+  --main-bg-color: #FFBB16;
+}
+
+body{
+  margin: 0;
+  background-color: var(--main-bg-color);
+  font-family: Inter;
+  background-image: url("/src/assets/images/tech-back.svg");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('./assets/fonts/Inter-VariableFont_opsz\,wght.ttf');
+}
