@@ -17,7 +17,7 @@ export const Profile = () =>{
                 <img className="profile-image" src={userPlaceholder} alt=""/>
                 <div className="profile-upper-right">
                     <h2>Вундервафля Софія</h2>
-                    <ProfileButton text="Налаштування" image={information}/>
+                    <ProfileButton text="Особиста інформація" image={information}/>
                 </div>
             </div>
 

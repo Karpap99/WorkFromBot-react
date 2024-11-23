@@ -28,7 +28,6 @@ export const SignInput = (props: SignInputProps) => {
                     alt="" 
                     onClick={()=>handlePasswordCheckerClick()}/> : null}
             </div>
-            
             {
                 props.passwordDiffCheck ? 
                 <div className="pass_dificult">

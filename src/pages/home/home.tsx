@@ -25,14 +25,13 @@ export const Home = () => {
                 </div>
             </div>
             <div className="home-offers-table">
-                <div className="home-offers-table-row">
                     <OfferCard
                         uuid="fa"
                         name="Web"
                         price="22000-22000"
                         category="Front"
                         location="Uk"
-                        description="awfawfawfawfawfsadaaaaaaawfawfawfawfawfsadaaaaaaawfawfawfawfawfsadaaaaaaawfawfawfawfawfsadaaaaaaawfawfawfawfawfsadaaaaaa"
+                        description="awfawfawfawfawffawfsadaaaaaaa"
                         tranding={true}   
                     />
                     <OfferCard
@@ -44,8 +43,6 @@ export const Home = () => {
                         description="awfawfawfawfawfsadaaaaaa"
                         tranding={true}    
                     />
-                </div>
-                <div className="home-offers-table-row">
                     <OfferCard
                         uuid="fa"
                         name="Web"
@@ -55,17 +52,6 @@ export const Home = () => {
                         description="awfawfawfawfawfsadaaaaaa"
                         tranding={true}   
                     />
-                    <OfferCard
-                        uuid="fa"
-                        name="Web"
-                        price="22000-22000"
-                        category="Front"
-                        location="Uk"
-                        description="awfawfawfawfawfsadaaaaaa"
-                        tranding={true}    
-                    />
-                </div>
-                <div className="home-offers-table-row">
                     <OfferCard
                         uuid="fa"
                         name="Web"
@@ -84,7 +70,15 @@ export const Home = () => {
                         description="awfawfawfawfawfsadaaaaaa"
                         tranding={true}    
                     />
-                </div>
+                    <OfferCard
+                        uuid="fa"
+                        name="Web"
+                        price="22000-22000"
+                        category="Front"
+                        location="Uk"
+                        description="awfawfawfawfawfsadaaaaaa"
+                        tranding={true}    
+                    />
           </div>
             
         </div>

@@ -1,0 +1,17 @@
+.nopage{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+}
+
+.nopage h2{
+    color: white;
+    font-size: 48px;
+}
+
+.nopage h3{
+    color: white;
+    font-size: 36px;
+}

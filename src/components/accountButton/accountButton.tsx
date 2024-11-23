@@ -1,10 +1,11 @@
-import { useState } from "react"
 import { Link } from "react-router"
 import "./accountButton.css"
 import profiledefault from "../../assets/images/profile-default.svg"
+import { useSelector } from "react-redux"
+import { RootState } from "../../store/store"
 
 export const AccountButton = () => {
-    const [IsAuthed, setIsAuthed] = useState<boolean>(false)
+    const IsAuthed = useSelector((state: RootState) => state.user.isAuthed);
 
     return(
         <>

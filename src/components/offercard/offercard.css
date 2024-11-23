@@ -1,12 +1,11 @@
 .offercard{
     background-color: white;
     padding: 20px;
-    width: 530px;
+    width: 90%;
     height: 160px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    
 }
 
 .offercard-header{
