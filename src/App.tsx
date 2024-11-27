@@ -7,6 +7,8 @@ import { Home } from './pages/home/home';
 import { SignIn } from './pages/sign-in/sign-in';
 import { SignUp } from './pages/sign-up/sign-up';
 import { Nopage } from './pages/nopage/nopage';
+import { Offers } from './pages/offers/offers';
+import { Recomendations } from './pages/recomendations/recomendations';
 
 function App() {
   return (
@@ -14,8 +16,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Layout/>}>
           <Route index path='/' element={<Home/>}></Route>
-          <Route path='/offers' element={<></>}/>
-          <Route path='/recomendations' element={<></>}/>
+          <Route path='/offers' element={<Offers/>}/>
+          <Route path='/recomendations' element={<Recomendations/>}/>
           <Route path='/support'element={<Support/>}/>
           <Route path='/profile/:userid' element={<Profile/>}/>
           <Route path="*" element={<Nopage/>}/>
