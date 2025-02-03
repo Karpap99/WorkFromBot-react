@@ -4,7 +4,8 @@ import { TInitialState, User } from "../types"
 
 const initialState: TInitialState = {
     user: null,
-    isAuthed: false
+    isAuthed: true,
+    lang: 0
 }
 
 export const slice = createSlice({
@@ -19,6 +20,9 @@ export const slice = createSlice({
         },
         setAuthed: (state, action: PayloadAction<boolean>) => {
             state.isAuthed = action.payload;
+        },
+        setLang: (state, action: PayloadAction<number>) => {
+            state.lang = action.payload;
         }
     }
 })

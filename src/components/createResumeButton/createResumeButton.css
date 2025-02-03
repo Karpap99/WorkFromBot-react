@@ -1,0 +1,10 @@
+
+.create-resume-button{
+    background-color: black;
+    color: white;
+    
+    display: inline;
+    padding: 15px 150px;
+    border-radius: 45px;
+    font-size: 45px;
+}

@@ -7,4 +7,5 @@ export type User = {
 export type TInitialState = {
     user: User | null;
     isAuthed: boolean;
+    lang: number;
 }
