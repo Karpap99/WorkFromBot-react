@@ -6,13 +6,13 @@ import { RootState } from "../../store/store"
 
 export const AccountButton = () => {
     const IsAuthed = useSelector((state: RootState) => state.user.isAuthed);
-
+    const User = useSelector((state: RootState) => state.user.user);
     return(
         <>
             {
                 IsAuthed ?
                 <div className="accountButtons">
-                    <Link to="/profile">
+                    <Link to={'/profile/userid='    +   User?.uuid}>
                         <img className="profile-image" src={profiledefault} alt="" />
                     </Link>
                 </div>

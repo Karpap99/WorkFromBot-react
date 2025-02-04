@@ -1,10 +1,14 @@
 import "./profile.css"
 import exit from "../../assets/images/exit-door.svg"
 import { ProfileButton } from "../../components/profileButton/profileButton"
+import { ProfileSelector } from "../../components/profileSelector/profileSelector"
 import { useState } from "react"
 import { useSelector } from "react-redux"
 import { RootState } from "../../store/store"
 import user_placeholder from "../../assets/images/profile-default.svg"
+import Visa from "../../assets/images/visa.png"
+import Mastercard from "../../assets/images/mastercard.png"
+
 export const Profile = () => {
     const [CurrActiveNav, setCurrActiveNav] = useState<number>(0);
     const lang = useSelector((state: RootState) => state.user.lang)
@@ -37,9 +41,8 @@ export const Profile = () => {
                 {
                     CurrActiveNav === 0 ? 
                     <>
-                        
                         <ProfileButton text="04.11.2003" />
-                        <ProfileButton text={lang === 0 ? "Мова" : "Language"} action="lang" />
+                        <ProfileSelector text={lang === 0 ? "Мова" : "Language"} action="lang" />
                         <ProfileButton text="Україна" />
                         <ProfileButton text={lang === 0 ? "Приватність та безпека" : "Privacy and security"} />
                         <ProfileButton text="SoloshSof@gmail.com"/>
@@ -50,9 +53,9 @@ export const Profile = () => {
                 {
                     CurrActiveNav === 1 ? 
                     <>
-                        <ProfileButton text="**** **** **** 1121" />
-                        <ProfileButton text="**** **** **** 5678" />
-                        <ProfileButton text={lang === 0 ? "Додати картку" : "Add payment method"} />
+                        <ProfileButton text="**** **** **** 1121" image={Visa} short/>
+                        <ProfileButton text="**** **** **** 5678" image={Mastercard} short/>
+                        <ProfileButton text={lang === 0 ? "Додати картку" : "Add payment method"} short />
                     </> :
                     <></>
                 }

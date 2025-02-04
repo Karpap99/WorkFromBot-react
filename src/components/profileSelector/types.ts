@@ -1,8 +1,6 @@
 
-export interface ButtonProps{
+export interface SelectorProps{
     text: string;
-    image?: string;
-    id?: string;
     action?: string;
     short?: boolean;
     onClick?: () => void;

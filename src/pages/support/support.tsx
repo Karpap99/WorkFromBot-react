@@ -1,4 +1,5 @@
 import "./support.css"
+import attach from "../../assets/images/attach.png"
 
 export const Support = () => {
     return (
@@ -6,14 +7,20 @@ export const Support = () => {
             <div>
                 <div className="message-layout">
                     <div className="support-elements">
-                        <div>
+                        <div className="support-element">
 
                         </div>
-                        <div>
-                            <input type="file"/>
+                        <div className="support-element" >
+                            <input type="file" id="FileSent" style={{display:"none"}}/>
+                            <label htmlFor="FileSent ">
+                                <img alt="" src={attach} className="support-icon"></img>
+                            </label>
                         </div>
-                        <div>
-                            <input type="image"/>
+                        <div className="support-element">
+                            <input type="image" id="ImageSent" alt=""/>
+                            <label htmlFor="ImageSent">
+                                <img alt="" src={attach} className="support-icon"></img>
+                            </label>
                         </div>
                         <input className="support-input-field" type="text" placeholder="Пиши - не буду"/>
                     </div>

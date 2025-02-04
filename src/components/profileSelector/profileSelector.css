@@ -1,0 +1,49 @@
+.profileselector-body{
+    background-color: white;
+    padding: 5px 40px;
+    font-size: 32px;
+    font-weight: 600;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    flex-direction: row;
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 5px;
+}
+
+
+
+.profile_lang_choose{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.profile_lang_noactive{
+    display: none;
+}
+
+
+.profile_lang_active{
+    display: initial;
+}
+
+
+.lang_controls{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    gap: 5px;
+}
+
+.lang_arrow{
+    height: 15px;
+}
+
+.lang_arrow_left{
+    transform: rotate(180deg);
+}

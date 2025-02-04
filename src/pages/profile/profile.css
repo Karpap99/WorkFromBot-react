@@ -35,10 +35,8 @@
 
 .profile-controls{
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: start;
     gap: 40px;
 }
 
@@ -47,11 +45,11 @@
     text-align: center;
     list-style: none;
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
 }
 
 .profile_navbar li{
-    padding: 20px 0;
+    padding: 20px 65px;
     cursor: pointer;
     font-size: 24px;
     font-weight: 800;
