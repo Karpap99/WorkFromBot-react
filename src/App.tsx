@@ -19,7 +19,7 @@ function App() {
           <Route path='/offers' element={<Offers/>}/>
           <Route path='/recomendations' element={<Recomendations/>}/>
           <Route path='/support'element={<Support/>}/>
-          <Route path='/profile/:userid' element={<Profile/>}/>
+          <Route path='/profile' element={<Profile/>}/>
           <Route path="*" element={<Nopage/>}/>
         </Route>
         <Route path='/sign-up'element={<SignUp/>}/>

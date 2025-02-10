@@ -6,6 +6,7 @@ import { useLocation } from "react-router-dom"
 import { AccountButton } from "../accountButton/accountButton"
 import { useSelector } from "react-redux"
 import { RootState } from "../../store/store"
+import {useLang} from "../../hooks/useLang";
 
 
 export const Header = () => {
@@ -15,8 +16,17 @@ export const Header = () => {
             fontWeight: 700
         }
         const lang = useSelector((state: RootState) => state.user.lang)
+        const { setLang } = useLang();
         return(
         <header>
+            <div className="props_panel">
+                <select onChange={(e)=>{
+                    setLang(Number(e.target.value))
+                }}>
+                    <option selected value={0}>UA</option>
+                    <option value={1}>EN</option>
+                </select>
+            </div>
             <div className="header">
                 <Link to="/">
                     <img className="logo" src={logo} alt="logo"/>

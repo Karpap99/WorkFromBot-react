@@ -47,3 +47,11 @@ header{
     border: 1.8px solid black;
     padding-left: 40px;
 }
+
+.props_panel{
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 5px;
+}
